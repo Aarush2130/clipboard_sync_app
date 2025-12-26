@@ -1,0 +1,23 @@
+name: clipboard_sync
+description: "A cross-platform clipboard sync app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Firebase packages
+  firebase_core: ^3.6.0
+  firebase_database: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
